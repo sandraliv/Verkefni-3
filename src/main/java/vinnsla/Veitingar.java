@@ -15,7 +15,15 @@ public class Veitingar {
     }
 
     public String toString() {
-        return matur.toString() + verd.toString();
+        return matur.get() + ", " + verd.get();
+    }
+
+    public String getMatur() {
+        return matur.get();
+    }
+
+    public int getVerd() {
+        return verd.get();
     }
 
     public static void main(String[] args) {

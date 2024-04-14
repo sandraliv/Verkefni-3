@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd84467b-2e32-4214-ad87-58862b1fe2b6" name="Changes" comment="" />
+    <list default="true" id="fd84467b-2e32-4214-ad87-58862b1fe2b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vidmot/takeaway/GreidslaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vidmot/takeaway/MatsedilView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vidmot/takeaway/VidskiptavinurDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vinnsla/Karfa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vidmot/takeaway/greidsla-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vidmot/takeaway/lykilord-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vidmot/takeaway/matsedill-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vidmot/takeaway/vidskiptavinur-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/takeaway/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/takeaway/PontunApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vidmot/takeaway/PontunController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vidmot/takeaway/PontunController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vinnsla/Matsedill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vinnsla/Matsedill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vinnsla/Veitingar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vinnsla/Veitingar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vinnsla/Vidskiptavinur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vinnsla/Vidskiptavinur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/vidmot/takeaway/pontun-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vidmot/takeaway/pontun-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +41,9 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2M2yZdO7ZUtHb2xRxdRAkbHoUkc" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
@@ -38,8 +58,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "C:/Users/user/Documents/GitHub/Viðmótsforritun/Verkefni-3",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }

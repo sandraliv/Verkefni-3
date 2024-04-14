@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<DialogPane prefHeight="104.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <header>
+        <Label contentDisplay="TOP" style="-fx-alignment: center;" text="Innskráning" />
+    </header>
+    <content>
+        <VBox prefHeight="83.0" prefWidth="400.0">
+            <children>
+                <HBox prefHeight="8.0" prefWidth="380.0">
+                    <children>
+                        <Label text="Nafn:">
+                            <HBox.margin>
+                                <Insets right="50.0" />
+                            </HBox.margin>
+                        </Label>
+                  <Label fx:id="fxSetjaNafn" prefHeight="17.0" prefWidth="200.0" />
+                    </children>
+                </HBox>
+                <HBox prefHeight="0.0" prefWidth="380.0">
+                    <children>
+                        <Label text="Lykilorð">
+                            <HBox.margin>
+                                <Insets right="10.0" />
+                            </HBox.margin>
+                        </Label>
+                        <TextField fx:id="lykilord" prefHeight="25.0" prefWidth="201.0">
+                     <HBox.margin>
+                        <Insets left="28.0" />
+                     </HBox.margin></TextField>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+    </content>
+    <ButtonType fx:id="fxILagi" buttonData="OK_DONE" text="Í lagi" />
+    <ButtonType fx:id="fxHaettaVid" buttonData="CANCEL_CLOSE" text="Hætta við" />
+</DialogPane>

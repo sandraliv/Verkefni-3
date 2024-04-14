@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="179.0" prefWidth="503.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.takeaway.GreidslaController">
+    <children>
+        <Label fx:id="greidsluTexti" alignment="CENTER" prefHeight="173.0" prefWidth="491.0" text="Engin pöntun" />
+      <HBox layoutX="334.0" layoutY="138.0" prefHeight="41.0" prefWidth="169.0">
+         <children>
+            <Button fx:id="fxStadfesta" mnemonicParsing="false" onAction="#fxStadfestaHandler" text="Staðfesta" />
+            <Button fx:id="fxHaettaVid" mnemonicParsing="false" onAction="#fxHaettaVid" text="Hætta við">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+    </children>
+
+</AnchorPane>
